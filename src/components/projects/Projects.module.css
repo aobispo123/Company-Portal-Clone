@@ -1,0 +1,136 @@
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.li {
+  margin: 30px;
+}
+
+.name {
+  color: #ffffff;
+
+  position: relative;
+  left: 250px;
+  right: 73.26%;
+  top: 30.53%;
+  bottom: 66.25%;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  position: relative;
+  left: 250px;
+  right: 73.26%;
+  top: 30.53%;
+  bottom: 66.25%;
+  color: white;
+  display: flex;
+  
+  text-align: center;
+}
+
+.title > p {
+  /* width: auto; */
+  margin-left: calc(50% - 250px);
+}
+
+.description {
+    position: relative;
+    left: 250px;
+    right: 62.38%;
+    top: 35.36%;
+    bottom: 62.49%;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.0rem;
+    line-height: 150%;
+    /* or 24px */
+    
+    display: flex;
+    align-items: center;
+    text-align: left;
+    
+    color: rgba(255, 255, 255, 0.75);
+
+    padding-top: 20px;
+    
+}
+
+.editActions button {
+  /* color: #ffffff; */
+  background-color: #deb992;
+  position: relative;
+  left: 1190px;
+  width: 103px;
+  height: 32px;
+  border-radius: 10.2875px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2439px;
+  line-height: 150%;
+  /* or 24px */
+
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.newActions button{
+     /* color: #ffffff; */
+  background-color: #1ba098;
+  position: relative;
+  left: 1225px;
+  width: 103px;
+  height: 32px;
+  border-radius: 10.2875px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2439px;
+  line-height: 150%;
+  /* or 24px */
+
+  align-items: center;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.75);
+
+}
+
+.h1 {
+  color: #1ba098;
+  left: 710px;
+  position: relative;
+  font-family: "Mulish";
+  font: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+}
+
+.hr {
+  border: 1px solid #deb992;
+  margin: 50px;
+  width: 1050px;
+  position: relative;
+  left: 200px;
+}

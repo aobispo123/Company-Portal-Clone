@@ -1,0 +1,36 @@
+.user-spacing{
+    margin-top: 2rem;
+}
+.user-title{
+    color: #1BA098;
+}
+
+.user-spacing{
+    margin-top: 2rem;
+}
+
+.user-table-title{
+    color: white;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.user-info{
+    text-align: center;
+    padding: 1rem 1rem 1rem 1rem;
+    color: #DEB992;
+}
+.user-status{
+    color: green;
+}
+
+.user-table-divider{
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom-color: #DEB992;
+}
+
+#user-table{
+    border-style: solid;
+    border-color: #DEB992;
+}

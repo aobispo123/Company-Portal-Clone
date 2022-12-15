@@ -1,0 +1,157 @@
+.message {
+  /* position: absolute;
+    width: 616px;
+    height: 256px;
+    left: 556px;
+    top: 419px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    
+    font-feature-settings: "salt" on, "liga" off; */
+
+  color: #ffffff;
+  /* position: absolute;
+    width: 616px;
+    height: 256px;
+    left: 556px;
+    top: 419px; */
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.user {
+  color: #ffffff;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+
+  position: absolute;
+  left: 8.18%;
+  /* right: 61%; */
+  top: 2.23%;
+  bottom: 64.55%;
+}
+
+.date {
+  color: #ffffff;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+
+  position: absolute;
+  /* left: 55.15%; */
+  right: 8.18%;
+  top: 2.23%;
+  bottom: 64.55%;
+}
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.li {
+  margin: 30px;
+}
+
+.h1 {
+  color: #1ba098;
+  left: 600px;
+  width: 313px;
+  position: relative;
+  font-family: "Mulish";
+  font: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+}
+
+.actions button {
+  /* color: #ffffff; */
+  background-color: #1ba098;
+  position: relative;
+  left: 1080px;
+  width: 103px;
+  height: 32px;
+  border-radius: 10.2875px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2439px;
+  line-height: 150%;
+  /* or 24px */
+
+  align-items: center;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.hr {
+  border: 1px solid #deb992;
+  margin: 50px;
+  width: 1050px;
+  position: relative;
+  left: 200px;
+}
+.teams {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  grid-row-gap: 200px;
+  grid-column-gap: 200px;
+  margin-top: auto;
+  justify-content: center;
+}
+
+.teamCards {
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+}
+
+p {
+  color: white;
+}
+
+.teamMembers {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  margin-top: auto;
+  justify-content: center;
+  
+}
+
+.teamInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cardLayout {
+  display: flex;
+  flex-direction: column;
+}

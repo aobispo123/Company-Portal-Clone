@@ -1,0 +1,117 @@
+form {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  width: 488.52px;
+  height: 437px;
+  background: #0b2d45;
+  border-radius: 12.722px;
+  align-items: center;
+  margin: 1.5em;
+}
+
+.posting-user {
+  position: absolute;
+  left: 9.83%;
+  right: 15.25%;
+  top: 3.66%;
+  bottom: 90.85%;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2439px;
+  line-height: 150%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #deb992;
+}
+
+.announcement {
+  /* position: absolute; */
+  position: relative;
+  left: 18.22%;
+  right: 58.86%;
+  top: 38.44%;
+  bottom: 56.06%;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2439px;
+  line-height: 150%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #deb992;
+}
+
+.announcement-input {
+  margin-top: 1.5em;
+  background-color: transparent;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: groove;
+  border-color: white;
+  color: white;
+
+  border: 1px solid #deb992;
+}
+
+.email-input {
+  margin-top: 1.5em;
+  background-color: transparent;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: groove;
+  border-color: white;
+  color: white;
+
+  border: 1px solid #deb992;
+}
+
+.close-btn {
+  line-height: 24px;
+  width: 24px;
+  font-size: 36pt;
+  font-family: tahoma;
+  margin-top: 1px;
+  margin-right: 2px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 0.75em;
+  color: #f24e1e;
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.submit-btn {
+  position: absolute;
+  width: 199px;
+  height: 45px;
+  left: 146px;
+  top: 365px;
+
+  background: #1ba098;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10.2875px;
+}
+
+.para {
+  color: #deb992;
+}

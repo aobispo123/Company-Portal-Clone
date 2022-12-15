@@ -1,0 +1,29 @@
+#select-company-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#select-company-h1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 150%;
+    text-align: center;
+    color: #1BA098;
+    margin-top: 20rem;
+    margin-bottom: 1rem;
+}
+
+#select-company-menu{
+    color:#005594;
+    border-radius: 20px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-left: 45vw;
+    margin-right: 45vw;
+}
+
+#select-company-menu:invalid  {
+    color: gray;
+}

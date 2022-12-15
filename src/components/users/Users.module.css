@@ -1,0 +1,21 @@
+.newActions button{
+    /* color: #ffffff; */
+ background-color: #1ba098;
+ position: relative;
+ width: 103px;
+ height: 32px;
+ border-radius: 10.2875px;
+
+ font-family: "Mulish";
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16.2439px;
+ line-height: 150%;
+ /* or 24px */
+ margin-top: 3rem;
+ margin-bottom: 5rem;
+ align-items: center;
+ text-align: center;
+
+ color: rgba(255, 255, 255, 0.75);
+}

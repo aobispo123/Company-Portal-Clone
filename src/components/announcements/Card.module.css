@@ -1,0 +1,13 @@
+.card {
+  background-color: #0b2d45;
+  border-radius: 20px;
+  position: absolute;
+  width: 788px;
+ 
+  /* height: 384px; */
+  left: 270px;
+  /* top: 324px; */
+  position: relative;
+  /* display: flex;  */
+  padding: 1.5rem;
+}
